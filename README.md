@@ -3,6 +3,9 @@
     <img src="https://account.etnecosystem.org/etn_ident_darkmode_logo.png" alt="ETN Identity SDK Logo" width="200" />
   </a>
   <h1>ETN Identity SDK</h1>
+  
+  [![npm version](https://img.shields.io/npm/v/@etn-ecosystem/identity-sdk.svg?style=flat-square)](https://www.npmjs.com/package/@etn-ecosystem/identity-sdk)
+  
   <p><strong>Version 1.0.0</strong> | Released: <strong>January 13, 2026</strong></p>
   <p><em>"The Official React SDK for Integrating ETN Identity."</em></p>
 

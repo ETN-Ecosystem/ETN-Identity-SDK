@@ -2,9 +2,17 @@
     "name": "@etn-ecosystem/identity-sdk",
     "version": "1.0.0",
     "description": "The official React SDK for integrating ETN Identity (Sign in with ETN)",
-    "main": "dist/index.js",
-    "module": "dist/index.esm.js",
-    "types": "dist/index.d.ts",
+    "type": "module",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "default": "./dist/index.js"
+        }
+    },
     "files": [
         "dist"
     ],
@@ -22,6 +30,14 @@
         "react-dom": "^18.2.0",
         "typescript": "^5.0.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ETN-Ecosystem/ETN-Identity-SDK.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ETN-Ecosystem/ETN-Identity-SDK/issues"
+    },
+    "homepage": "https://github.com/ETN-Ecosystem/ETN-Identity-SDK#readme",
     "keywords": [
         "etn",
         "identity",
